@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background-color: #e6f2ff; /* light blue */
+    color: #003366; /* dark blue */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    background-color: #003366;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .links a {
+    display: inline-block;
+    width: 300px;
+    padding: 1rem;
+    background-color: #cce0ff;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    color: #003366;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  }
+  
+  .links a:hover {
+    background-color: #99ccff;
+  }
+  
+  .image-container img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+  }
+  
+  .footer {
+    background-color: #cce0ff;
+    border-top: 3px solid #003366;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .footer .group-title {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .course {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer ul {
+    list-style: disc;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+  }
