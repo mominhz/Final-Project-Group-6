@@ -5,6 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Introduction - FRT Ethics</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .intro-container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .intro-container h2 {
+      font-size: 1.8rem;
+      color: #003366;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #cce0ff;
+      padding-bottom: 0.5rem;
+    }
+
+    .intro-container p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .application-section {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .application-section img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .application-text {
+      flex: 1;
+    }
+
+    ul.custom-list {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    ul.custom-list li {
+      margin-bottom: 0.8rem;
+      font-size: 1.05rem;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -14,60 +66,42 @@
     <a href="ethics.html">Ethics</a>
   </nav>
 
-  <div class="container">
-    <h1>Introduction to the Technology</h1>
+  <div class="intro-container">
+    <h2>What is Facial Recognition Technology (FRT)?</h2>
+    <p>
+      Facial Recognition Technology (FRT) is a type of biometric system that uses a person’s unique facial features,
+      like the distance between the eyes, nose, and mouth, to identify or verify their identity. It captures an image
+      of a face, converts it into data, and compares it with images stored in a database.
+    </p>
 
-    <section class="text-section">
-      <h2>What is Facial Recognition Technology (FRT)?</h2>
-      <p>
-        FRT is a type of biometric system that uses a person’s unique facial features—like the distance between the eyes, nose, and mouth—to identify or verify their identity. It captures an image of a face, converts it into data, and compares it with images stored in a database.
-      </p>
+    <h2>Why It’s Important</h2>
+    <p>
+      Facial Recognition Technology (FRT) is important because it allows systems to identify or verify individuals
+      using their facial features. It plays a significant role in enhancing security, streamlining identification
+      processes, and enabling contactless verification. As a biometric tool, it provides a faster and often more
+      accurate method of identity confirmation compared to traditional ID checks.
+    </p>
 
-      <h2>Why It’s Important</h2>
-      <p>
-        Facial Recognition Technology is important because it allows systems to identify or verify individuals using facial features. It enhances security, simplifies identification, and enables contactless verification. As a biometric tool, it offers a faster and often more accurate method of confirming identity than traditional checks.
-      </p>
+    <h2>Application Domain</h2>
+    <div class="application-section">
+      <img src="verification.png" alt="Verification Image" />
+      <div class="application-text">
+        <ul class="custom-list">
+          <li><strong>Security and Law Enforcement:</strong> Surveillance systems in public spaces identify suspects or missing persons.</li>
+          <li><strong>Mobile Devices & Consumer Electronics:</strong> Face unlock features enhance user convenience and protection.</li>
+          <li><strong>Airports and Border Control:</strong> Automated passport control reduces wait times and improves ID management.</li>
+          <li><strong>Retail and Marketing:</strong> Tracks customer behavior and delivers personalized ads.</li>
+          <li><strong>Healthcare:</strong> Used for patient identification and access control in hospitals.</li>
+          <li><strong>Banking and Finance:</strong> Enables secure online banking and ATM withdrawals.</li>
+        </ul>
+      </div>
+    </div>
 
-      <h2>Application Domain</h2>
-
-      <ul>
-        <li><strong>Security and Law Enforcement</strong><br>
-          <em>Use Case:</em> Surveillance systems in public spaces to identify suspects or missing persons.<br>
-          <em>Impact:</em> Improves public safety and speeds up criminal investigations.
-        </li>
-        <li><strong>Mobile Devices & Consumer Electronics</strong><br>
-          <em>Use Case:</em> Face unlock features on smartphones and tablets.<br>
-          <em>Impact:</em> Enhances user convenience and data protection.
-        </li>
-        <li><strong>Airports and Border Control</strong><br>
-          <em>Use Case:</em> Automated passport control and boarding verification.<br>
-          <em>Impact:</em> Reduces wait times and improves identity management.
-        </li>
-        <li><strong>Retail and Marketing</strong><br>
-          <em>Use Case:</em> Customer behavior tracking and personalized ads.<br>
-          <em>Impact:</em> Helps businesses understand consumer preferences and tailor experiences.
-        </li>
-        <li><strong>Healthcare</strong><br>
-          <em>Use Case:</em> Patient identification and access control in hospitals.<br>
-          <em>Impact:</em> Reduces medical errors and enhances data security.
-        </li>
-        <li><strong>Banking and Finance</strong><br>
-          <em>Use Case:</em> Biometric authentication for online banking and ATM withdrawals.<br>
-          <em>Impact:</em> Minimizes fraud and enhances secure access.
-        </li>
-      </ul>
-    </section>
-  </div>
-
-  <div class="footer">
-    <div class="group-title">Project Group 6:</div>
-    <div class="course">Course: IT304</div>
-    <ul>
-      <li>Rachael Young</li>
-      <li>Ilham Harras</li>
-      <li>Momin Hafeez</li>
-      <li>Sunny Tran</li>
-    </ul>
+    <h2>Why It Matters</h2>
+    <p>
+      The rapidly expanding use of FRT in security, law enforcement, retail, and personal devices raises urgent ethical
+      questions about surveillance, consent, and bias.
+    </p>
   </div>
 </body>
 </html>
